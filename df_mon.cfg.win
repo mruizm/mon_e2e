@@ -1,0 +1,18 @@
+################################################################################
+#THIS IS TEST CFG TEMPLATE
+#SHOULD NOT BE USED FOR PRODUCTION
+################################################################################
+INTERVAL                = 15
+DEFAULT_ALERT_TYPE      = T
+MON_TYPE                = LOGFILE
+HOUSE_KEEPING           = OVERWRITE_MONTHLY
+DURATION                = 0
+REPEAT                  = YES
+
+#[OBJ],[EV_TYPE],[EV_TYPE_INST]
+[MON_E2E]
+"C:\"     Warning        99      %       *       0000    2400
+################################################################################
+#THIS IS TEST CFG TEMPLATE
+#SHOULD NOT BE USED FOR PRODUCTION
+################################################################################
